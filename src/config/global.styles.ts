@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+
 import './fonts/styles.css';
+import { COLORS } from '../constant';
 
 export const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -65,6 +67,16 @@ table {
     float above the app.
   */
   isolation: isolate;
+}
+
+html {
+  --color-white: hsl(${COLORS.white});
+  --color-gray-100: hsl(${COLORS.gray[100]});
+  --color-gray-300: hsl(${COLORS.gray[300]});
+  --color-gray-500: hsl(${COLORS.gray[500]});
+  --color-gray-700: hsl(${COLORS.gray[700]});
+  --color-gray-900: hsl(${COLORS.gray[900]});
+  --color-black: hsl(${COLORS.black});
 }
 
 html, body, #root {
