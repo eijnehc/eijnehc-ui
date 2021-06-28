@@ -16,3 +16,33 @@ export const WEIGHTS = {
   medium: 500,
   bold: 700,
 };
+
+export const FONTS = {
+  primary: "'Poppins', sans-serif",
+  size: {
+    light: `${10 / 16}rem)`,
+    small: `${14 / 16}rem)`,
+    regular: `${16 / 16}rem)`,
+    lead: `${18 / 16}rem)`,
+    heading: `${24 / 16}rem)`,
+    title: `${32 / 16}rem)`,
+  },
+};
+
+export const LAYOUT = {
+  radius: {
+    small: '2px',
+    regular: '4px',
+    large: '6px',
+  },
+  spacing: {
+    none: '0',
+    nano: '4px',
+    micro: '8px',
+    milli: '12px',
+    centi: '20px',
+    regular: '28px',
+    large: '42px',
+    giant: '60px',
+  },
+};

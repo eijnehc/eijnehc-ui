@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 import './fonts/styles.css';
-import { COLORS } from '../constant';
+import { COLORS, WEIGHTS } from '../constant';
 
 export const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -70,6 +70,7 @@ table {
 }
 
 html {
+  /* colors */
   --color-white: hsl(${COLORS.white});
   --color-gray-100: hsl(${COLORS.gray[100]});
   --color-gray-300: hsl(${COLORS.gray[300]});
@@ -77,6 +78,12 @@ html {
   --color-gray-700: hsl(${COLORS.gray[700]});
   --color-gray-900: hsl(${COLORS.gray[900]});
   --color-black: hsl(${COLORS.black});
+
+  /* weights */
+  --weight-light: ${WEIGHTS.light}
+  --weight-regular: ${WEIGHTS.regular}
+  --weight-medium: ${WEIGHTS.medium}
+  --weight-bold: ${WEIGHTS.bold}
 }
 
 html, body, #root {
