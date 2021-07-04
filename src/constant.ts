@@ -8,6 +8,22 @@ export const COLORS = {
     900: '220deg 3% 20%',
   },
   black: '0deg 0% 0%',
+  primary: {
+    light: '167deg 85% 51%',
+    dark: '155deg 59% 56% ',
+  },
+  secondary: {
+    light: '230deg 100% 54%',
+    dark: '223deg 77% 63%',
+  },
+  tertiary: {
+    light: '284deg 71% 50%',
+    dark: '261deg 54% 60%',
+  },
+  warning: {
+    light: '360deg 100% 59%',
+    warning: '7deg 86% 55%',
+  },
 };
 
 export const WEIGHTS = {
