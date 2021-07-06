@@ -1,0 +1,44 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import { Button } from './Button';
+
+<Meta
+  title='IconInput'
+  component={Button}
+  argTypes={{
+    placeholder: {
+      control: {
+        type: 'text',
+      },
+    },
+    icon: {
+      control: {
+        type: 'select',
+        options: ['search', 'at-sign'],
+      },
+    },
+    size: {
+      control: {
+        type: 'select',
+        options: ['small', 'large'],
+      },
+    },
+    label: {
+      control: {
+        type: 'text',
+      },
+    },
+  }}
+/>
+
+export const Template = (args) => <Button {...args} />;
+
+# IconInput
+
+<Story
+  name='Default'
+  args={{
+    variant: 'fill',
+  }}
+>
+  {Template.bind({})}
+</Story>
