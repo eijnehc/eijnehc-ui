@@ -2,43 +2,32 @@ import { Meta, Story } from '@storybook/addon-docs/blocks';
 import { Button } from './Button';
 
 <Meta
-  title='IconInput'
+  title='Button'
   component={Button}
   argTypes={{
-    placeholder: {
-      control: {
-        type: 'text',
-      },
-    },
-    icon: {
+    variant: {
       control: {
         type: 'select',
-        options: ['search', 'at-sign'],
+        options: ['fill', 'outline', 'underline'],
       },
     },
     size: {
       control: {
         type: 'select',
-        options: ['small', 'large'],
-      },
-    },
-    label: {
-      control: {
-        type: 'text',
+        options: ['small', 'default', 'large'],
       },
     },
   }}
 />
 
-export const Template = (args) => <Button {...args} />;
-
-# IconInput
-
 <Story
-  name='Default'
+  name='Button'
   args={{
     variant: 'fill',
+    size: 'default',
   }}
 >
   {Template.bind({})}
 </Story>
+
+export const Template = (args) => <Button {...args}>Button</Button>;
