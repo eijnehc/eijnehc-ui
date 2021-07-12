@@ -78,21 +78,21 @@ html {
   --color-gray-700: hsl(${COLORS.gray[700]});
   --color-gray-900: hsl(${COLORS.gray[900]});
   --color-black: hsl(${COLORS.black});
-  --color-primary-light: hsl(${COLORS.primary['light']})
-  --color-primary-dark: hsl(${COLORS.primary['dark']})
-  --color-secondary-light: hsl(${COLORS.secondary['light']})
-  --color-secondary-dark: hsl(${COLORS.secondary['light']})
-  --color-tertiary-light: hsl(${COLORS.tertiary['light']})
-  --color-tertiary-dark: hsl(${COLORS.tertiary['dark']})
-  --color-warning-light: hsl(${COLORS.warning['light']})
-  --color-warning-dark: hsl(${COLORS.tertiary['dark']})
+  --color-primary-light: hsl(${COLORS.primary.light});
+  --color-primary-dark: hsl(${COLORS.primary.dark});
+  --color-secondary-light: hsl(${COLORS.secondary.light});
+  --color-secondary-dark: hsl(${COLORS.secondary.dark});
+  --color-tertiary-light: hsl(${COLORS.tertiary.light});
+  --color-tertiary-dark: hsl(${COLORS.tertiary.dark});
+  --color-warning-light: hsl(${COLORS.warning.light});
+  --color-warning-dark: hsl(${COLORS.tertiary.dark});
 
 
   /* weights */
-  --weight-light: ${WEIGHTS.light}
-  --weight-regular: ${WEIGHTS.regular}
-  --weight-medium: ${WEIGHTS.medium}
-  --weight-bold: ${WEIGHTS.bold}
+  --weight-light: ${WEIGHTS.light};
+  --weight-regular: ${WEIGHTS.regular};
+  --weight-medium: ${WEIGHTS.medium};
+  --weight-bold: ${WEIGHTS.bold};
 }
 
 html, body, #root {
