@@ -10,7 +10,7 @@ export const COLORS = {
   black: '0deg 0% 0%',
   primary: {
     light: '167deg 85% 51%',
-    dark: '155deg 59% 56% ',
+    dark: '168deg 63% 55% ',
   },
   secondary: {
     light: '230deg 100% 54%',
