@@ -85,7 +85,7 @@ html {
   --color-tertiary-light: hsl(${COLORS.tertiary.light});
   --color-tertiary-dark: hsl(${COLORS.tertiary.dark});
   --color-warning-light: hsl(${COLORS.warning.light});
-  --color-warning-dark: hsl(${COLORS.tertiary.dark});
+  --color-warning-dark: hsl(${COLORS.warning.dark});
 
 
   /* weights */

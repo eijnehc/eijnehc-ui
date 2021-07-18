@@ -22,7 +22,7 @@ export const COLORS = {
   },
   warning: {
     light: '360deg 100% 59%',
-    warning: '7deg 86% 55%',
+    dark: '7deg 86% 55%',
   },
 };
 
